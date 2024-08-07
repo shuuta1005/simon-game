@@ -65,7 +65,7 @@ function animateButton(currentColor, animation) {
   //Remove the animation
   setTimeout(function () {
     $("#" + currentColor).removeClass(animation);
-  }, 400);
+  }, 100);
 }
 
 //Check Answer function
